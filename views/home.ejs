@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <style>
+    body {
+      background-image: linear-gradient(to right, #1e3c72, #e9ecf0);
+      font-family: 'Arial', sans-serif;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      width: 200px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    li {
+      margin-left: 20px;
+    }
+
+    a {
+      color: #040404;
+      text-decoration: none;
+      font-size: 18px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      color: #122882;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 48px;
+      margin-top: 40px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    h2 {
+      text-align: center;
+      font-size: 30px;
+      margin-top: 40px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      animation: slide-in 10s ease-in-out infinite alternate;
+    }
+    
+    @keyframes slide-in {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+
+    h3, h4 {
+      text-align: center;
+      font-size: 30px;
+      margin-top: 40px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+      font-size: 24px;
+      line-height: 1.5;
+      margin-top: 20px;
+    }
+
+    .footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px 0;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .footer p {
+      margin: 0;
+      font-size: 16px;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <img src="/img/Riya's portfolio.png" alt="Custom Logo">
+      </div>
+      <ul>
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/about">About Me</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/contact">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <h1>Welcome to My Portfolio</h1>
+    <h2>This is the home page of my portfolio website.</h2>
+    <h3>My mission is to enhance my abilities, broaden my perspectives, and cultivate a well-rounded and balanced life. I embrace change and adaptability, recognizing that growth often occurs outside of my comfort zone.</h3>
+    <h4>Feel free to explore the other pages to learn more about me and my projects.</h4>
+  
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2023 Your Portfolio. All rights reserved.</p>
+  </div>
+</body>
+</html>
