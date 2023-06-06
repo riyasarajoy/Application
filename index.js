@@ -18,7 +18,7 @@ app.use(express.static(__dirname + '/img'));
 app.use(express.static(__dirname + '/js'));
 app.use(express.static(__dirname + '/pdf'));
 
-// Routes
+// Routes 
 app.get('/', (req, res) => {
   res.render('home');
 });
@@ -46,7 +46,7 @@ app.post('/submit', (req, res) => {
   res.redirect('/');
 });
 
-// Start the server
+// Start the server, localhost:3001
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
