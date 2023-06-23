@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .table-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    width: 50%;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .contact-name {
+    text-align: left;
+  }
+  
+  .contact-number {
+    text-align: center;
+  }
+  
+  .email-address {
+    text-align: right;
+  }
+
+  body{
+	background: url('../img/contact.png') no-repeat;
+    background-size: cover;
+	min-height: 100vh;
+}  
